@@ -1,3 +1,5 @@
+Original plugin on: https://github.com/vim-utils/vim-read
+
 # vim-read
 
 Make Vim **read text** out loud!

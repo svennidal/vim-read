@@ -4,6 +4,10 @@ Make Vim **read text** out loud!
 
 (Works on OSX only)
 
+### SvenniDal Linux mod
+*sudo apt-get install pico2wave*
+*sudo cp picos.sh /bin/*
+
 ### About
 
 This plugin uses the `say` OSX command and makes it nice to use from Vim.

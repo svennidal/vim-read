@@ -1,12 +1,17 @@
+Original plugin on: https://github.com/vim-utils/vim-read
+
 # vim-read
 
 Make Vim **read text** out loud!
 
 (Works on OSX only)
 
+
 ### SvenniDal Linux mod
 *sudo apt-get install pico2wave*
+
 *sudo cp picos.sh /bin/*
+
 
 ### About
 

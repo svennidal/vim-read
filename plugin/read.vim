@@ -7,7 +7,14 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 if !exists('g:read_cmd')
-  let g:read_cmd='say'
+  if has("unix")
+    let s:uname = system("uname")
+    if s:uname == "Darwin\n"
+      let g:read_cmd='say'
+    else
+      let g:read_cmd='picos'
+    endif
+  endif
 endif
 
 nnoremap <silent> <Plug>Read :<C-U>set opfunc=read#filterop<CR>g@
